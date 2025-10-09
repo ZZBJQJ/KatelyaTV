@@ -23,10 +23,9 @@ database_id = "b76ccb54-6da3-46e5-8104-2d34168f88a1"
 [env.production.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
-NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
-NEXTAUTH_URL = "https://tv.katelya.eu.org"
 USERNAME = "JQJ"
-AUTH_PASSWORD = "7823099"
+PASSWORD = "7823099"
+NEXT_PUBLIC_ENABLE_REGISTER="true"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
@@ -37,6 +36,8 @@ HEALTH_CHECK_INTERVAL = "30"
 LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
+
+
 
 # 预览环境配置
 [env.preview]
@@ -52,10 +53,9 @@ database_id = "b76ccb54-6da3-46e5-8104-2d34168f88a1"
 [env.preview.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
-NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
-NEXTAUTH_URL = "https://katelyatv.pages.dev"
 USERNAME = "JQJ"
-AUTH_PASSWORD = "7823099"
+PASSWORD = "7823099"
+NEXT_PUBLIC_ENABLE_REGISTER="true"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
